@@ -1,0 +1,30 @@
+.NavBar {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 800px;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.Connect {
+    background: linear-gradient(270deg, #df8908 10%, #b415fb 100%);
+    padding: 10px 30px;
+    border-radius: 30px;    
+    margin-right:20px;
+    
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.Connect:hover {
+    transform: scale(1.2);
+}
