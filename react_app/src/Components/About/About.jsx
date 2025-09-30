@@ -3,7 +3,7 @@ import './About.css';
 
 const About = () => {
   // Step 1: Track the currently active tab
-  const [activeTab, setActiveTab] = useState('');
+  const [activeTab, setActiveTab] = useState('skills');
 
   // Step 2: Function to change tabs
   const opentab = (tabName) => {
